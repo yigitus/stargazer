@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarGazer 2000</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <ul class="links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Telescopes</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+        <div class="logo">
+            <a href="index.html">StarGazer 2000</a>
+        </div>
+        <ul class="links">
+            <li><a href="">Contact</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </header>
+    <video autoplay muted loop id="video-bg">
+        <source src="images/home_bg.mp4" type="video/mp4">
+    </video>
+    <div id="hero">
+        <p class="section-heading">EXPLORE <span class="colored-text">THE STARS</span> <br />WİTH OUR TELESCOPES!</p>
+        <div id="hero-text">
+            <p class="info">Learn about the wonders of the universe and how our telescopes can help you discover them
+            </p>
+            <div class="buttons">
+                <a href="" class="button">Our Telescopes</a>
+                <a href="" class="button">About Us</a>
+            </div>
+        </div>
+    </div>
+    <section id="features">
+        <p class="section-heading">Features<span class="linethrough"></span></p>
+        <div id="features-container">
+            <div class="feature">
+                <img class="feature-image" src="images/telescope.webp" alt="telescope">
+                <h3>High Quality Optics</h3>
+                <p>Our telescopes are equipped with high quality optics that allow you to see the stars in stunning
+                    detail
+                </p>
+            </div>
+            <div class="feature">
+                <img class="feature-image" src="images/easy-to-use.webp" alt="telescope">
+                <h3>Easy to Use</h3>
+                <p>Our telescopes are designed to be easy to use, so you can spend more time stargazing and less time
+                    setting up</p>
+            </div>
+            <div class="feature">
+                <img class="feature-image" src="images/portable.webp" alt="telescope">
+                <h3>Portable</h3>
+                <p>Our telescopes are lightweight and portable, so you can take them with you wherever you go</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section-heading">Contact<span class="linethrough"></span></p>
+        <div id="contact-container">
+            <div id="contact-left">
+                <p class="contact-heading">Get in Touch</p>
+                <p class="contact-info">If you have any questions about our telescopes, or if you would like to place an
+                    order, please feel free to get in touch with us</p>
+                <p class="contact-info">Phone: 555-555-5555</p>
+                <p class="contact-info">Email: johndoe@Stargazer.com </p>
+                <p class="contact-info">Address: 123 Main St. Anytown, USA</p>
+            </div>
+            <div id="contact-form">
+                <p class="contact-heading">Send Us a Message</p>
+                <form action="">
+                    <input type="text" placeholder="Name" class="contact-input">
+                    <input type="email" placeholder="Email" class="contact-input">
+                    <textarea placeholder="Message" class="contact-input"></textarea>
+                    <input type="submit" value="Send" class="button">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 StarGazer© <br /><br />
+            Disclaimer: This website is for demonstration purposes only and does not represent a real company. Any
+            resemblance to actual products, services, or persons, living or dead, is purely coincidental.
+        </p>
+    </footer>
+</body>
+
+</html>
